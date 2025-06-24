@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css" />
+  <title>Dota 2</title>
+  <link rel="icon" href="img/logo_dota.png" type="image/png" />
+  <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+<body>
+  <div id="root"></div>
+
+  <script type="text/babel" src="jsx/SignInModal.jsx"></script>
+  <script type="text/babel" src="jsx/QuizPage.jsx"></script>
+  <script type="text/babel" src="jsx/HeroPage.jsx"></script>
+  <script type="text/babel" src="jsx/App.jsx"></script>
+
+  <script type="text/babel">
+    ReactDOM.render(<Dota2App />, document.getElementById('root'));
+  </script>
+</body>
+</html>
