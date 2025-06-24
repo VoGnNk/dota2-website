@@ -1,6 +1,6 @@
 const express = require('express');
 const server=express();
-const  PORT = 8888;
+const  PORT = 7777;
 server.listen(PORT);
 console.log('Server is running on port '+ PORT);
 
